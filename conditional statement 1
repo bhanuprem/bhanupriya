@@ -1,0 +1,6 @@
+#include <stdio.h>
+int main()
+ { int n = 90; 
+ printf("%s", 85-100?"Grade A":(70-84?"Grade B":(55-69?"Grade C":(40-54?"Grade D":(40<?"Grade F" )))));
+ return 0;
+ }
